@@ -2,7 +2,7 @@
 
 🧩Game deatails :
 
-📎 The game has a 9 x 9 grid board
+📎 The game structure has a 9 x 9 grid board
 
 📎 Check for repetition button(rows,columns and 3x3 grid quadrant)
 
