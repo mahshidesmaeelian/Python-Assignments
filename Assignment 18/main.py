@@ -166,6 +166,7 @@ class MainWindow(QMainWindow):
                 if numbers[j] != '0':
                     self.game[i][j].setStyleSheet('font-size : 32px  ; color:green ; text-align:center')
                     self.game[i][j].setText(numbers[j])
+                    self.game[i][j].setDisabled(True)
 
                 else:
                     self.game[i][j].setStyleSheet('font-size : 32px  ; color:black ; text-align:center')
