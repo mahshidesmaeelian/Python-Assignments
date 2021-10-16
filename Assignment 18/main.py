@@ -172,6 +172,7 @@ class MainWindow(QMainWindow):
                     self.game[i][j].setStyleSheet('font-size : 32px  ; color:black ; text-align:center')
                     self.game[i][j].setText('')
                     self.empty_cells.append(numbers[j])
+                    self.game[i][j].setDisabled(False)
                 
                     
 
