@@ -1,15 +1,16 @@
-Sudoku Game created by Python using QT
+"Sudoku Game created by Python using QT"
 
 🧩Game deatails :
 
-1.The game has a 9 x 9 grid board
+📎 The game has a 9 x 9 grid board
 
-2.Check for repetition button(rows,columns and 3x3 grid quadrant)
+📎 Check for repetition button(rows,columns and 3x3 grid quadrant)
 
-3.Dark / light mode
+📎 Dark / light mode🌌🌅
 
-4.New Game button(contains 6 various sudoku board templates)
+📎 New Game button(contains 6 various sudoku board templates)
 
+📎 Proper winning message in case the user wins🏆
 
 ⛳️Rules:
 
