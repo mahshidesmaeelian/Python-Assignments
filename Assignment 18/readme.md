@@ -1,17 +1,17 @@
 Sudoku Game created by Python using QT
 
-Game deatails :
+🧩Game deatails :
 
 1.The game has a 9 x 9 grid board
 
-2.Check function(rows,columns and 3x3 grid quadrant)
+2.Check for repetition button(rows,columns and 3x3 grid quadrant)
 
 3.Dark / light mode
 
-4.New Game button
+4.New Game button(contains 6 various sudoku board templates)
 
 
-Rules:
+⛳️Rules:
 
 1.Each row must contain the digits from 1-9 without repetition.
 
