@@ -1,4 +1,4 @@
-This code mixes two faces togeather
+This code mixes two different people faces togeather like magic ~ Lol
 
 You can obviousely see the result in following photos^-^
 
