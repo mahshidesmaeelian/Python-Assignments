@@ -1,3 +1,6 @@
+This code adds some noises to a simple photo^-^
+You can obviousely see the result in following photos*o*
+
 Original photo:
 
 ![chess pieces](https://user-images.githubusercontent.com/88210093/140580247-b492499a-b826-441f-9127-37f730e53ce4.jpg)
