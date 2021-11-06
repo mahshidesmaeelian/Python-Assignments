@@ -1,3 +1,7 @@
+This code mixes two faces togeather
+
+You can obviousely see the result in following photos^-^
+
 The Original photos : 
 
 ![1](https://user-images.githubusercontent.com/88210093/140579974-ac84ae3e-3f2a-49c4-81b9-978461d4c9b4.jpg)
