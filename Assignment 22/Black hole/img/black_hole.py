@@ -1,28 +1,40 @@
-import cv2 as cv
+import cv2
 import numpy as np
 
-images = [[0 for i in range(5)] for j in range(4)]
+imglist = []
 
-for i in range(4):
-    for j in range(5):
-        images[i][j] = cv.imread(str(i + 1) + '/' + str(j + 1) + '.jpg')
-        images[i][j] = cv.cvtColor(images[i][j], cv.COLOR_BGR2GRAY)
+for i in range(1,5):
+    for j in range(1,6):
+        img = cv2.imread(f"img/{i}/{j}.jpg",0)
+        imglist.append(img)
+        row,col = img.shape
 
-image_without_noise = [0 for i in range(4)]
+for i in range(1,5):
+    result = np.zeros((row , col), dtype ="uint8")
 
-for i in range(4):
-    for j in range(5):
-        image_without_noise[i] = image_without_noise[i] + (images[i][j] / 5)
+    for i in range(0,20,5):
+        for j in range(i,i+5):
+            result += imglist[i]//5
 
-final_image = np.zeros((2000, 2000), dtype=np.uint8)
+        cv2.imwrite(f'Output{i}.jpg',result)
+        result = np.zeros((row , col), dtype ="uint8")
+        
+img1 = cv2.imread('Output0.jpg',0)
+img1 = cv2.resize(img1, (500,500))
+img[0:500, 0:500] = img1
 
-final_image[0:1000, 0:1000] = image_without_noise[0]
-final_image[0:1000, 1000:2000] = image_without_noise[1]
-final_image[1000:2000, 0:1000] = image_without_noise[2]
-final_image[1000:2000, 1000:2000] = image_without_noise[3]
+img2 = cv2.imread('Output5.jpg',0)
+img2 = cv2.resize(img2, (500,500))
+img[0:500, 500:1000] = img2
 
-cv.imshow('Final Image', final_image)
+img3 = cv2.imread('Output15.jpg',0)
+img3 = cv2.resize(img3, (500,500))
+img[500:1000, 500:1000] = img3
 
-cv.imwrite('final_image.jpg', final_image)
+img4 = cv2.imread('Output10.jpg',0)
+img4 = cv2.resize(img4, (500,500))
+img[500:1000, 0:500] = img4
 
-cv.waitKey()
+cv2.imwrite('Output.jpg',img)
+cv2.imshow('Output',img)
+cv2.waitKey()
