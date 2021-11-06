@@ -14,7 +14,7 @@ for image in images:
     result += image//15
 
 
-cv2.imwrite('Highway/clear_streets.jpg' , result)
+cv2.imwrite('clear_streets.jpg' , result)
 
 cv2.imshow('Highway' , result)
 
