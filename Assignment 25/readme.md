@@ -1,4 +1,5 @@
 1.Flower portrait(blurred background):
+
 Input:
 
 ![flower_input](https://user-images.githubusercontent.com/88210093/143687276-5c691cc6-edf9-4d0f-89ff-e1b2a2c11191.jpg)
@@ -8,6 +9,7 @@ Output:
 ![blurred background](https://user-images.githubusercontent.com/88210093/143687294-c69b065d-95cf-4647-b918-cc00b46f8464.jpg)
 
 2.Cute Lion Vector Convolution:
+
 Input:
 
 ![lion](https://user-images.githubusercontent.com/88210093/143687166-8e9f00d1-9b60-4fc0-8e42-e6c3d4a5ff5d.png)
@@ -18,6 +20,7 @@ Result:
 
 
 3.Building image Convolution:
+
 Results:
 
 ![result2](https://user-images.githubusercontent.com/88210093/143687351-0f270cfd-33be-4b36-8407-f000303e5425.jpg)
