@@ -28,7 +28,7 @@ Results:
 
 ![users_result](https://user-images.githubusercontent.com/88210093/143687388-ecf61e9d-c515-4fcf-bdb5-9652915b9e3b.jpg)
 
-5.Live camera 3 Shade of gray detector:
+5.Live camera 3 Shades of gray detector:
 
 https://user-images.githubusercontent.com/88210093/143687439-68297edd-9b90-4306-9455-d22acdc8f1c3.mp4
 
